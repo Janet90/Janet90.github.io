@@ -1,0 +1,26 @@
+body {
+background-color: cyan;
+width: 800px;
+margin:auto;
+margin-left: 20px;
+font-family: arial;
+}
+
+p {
+  font-family: courier;
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  border: 2px solid green;
+  background-color: yellow;
+  font-size: 60px;
+  margin: 40px;
+  padding: 60px;
+}
+
+h2{
+  font-size: 20px;
+
+}
