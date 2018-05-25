@@ -1,0 +1,186 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+ h1 {
+	font-family: "Times New Roman", Georgia, Times;
+	font-size: 3.2em;
+	text-align: center;
+	}
+h2 {
+	font-family: Arial, Verdana, Geneva;
+	font-size: 2em;
+	text-align: left;
+   }
+
+p {
+	 font-family: Arial, Verdana, Geneva;
+	 font-size: 16px;
+	 padding:0.15em 16px;
+   color: black;
+   }
+
+.nav ul {
+  font-family: Arial, Verdana, Geneva;
+  list-style: none;
+  background-color: #78ab89;
+  text-align: center;
+  vertical-align: baseline;
+
+}
+
+.nav a {
+  font-family: Arial, Verdana, Geneva;
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  width:100%;
+  border-bottom: 1px solid #000;
+  height: 230px;
+  line-height: 230px;
+  display: block;
+  text-align: center;
+  animation: bounceIn 2s;
+}
+.nav a:hover{
+  background-color: #78ab89;
+  opacity: 0.5;
+  color: white;
+
+}
+
+.text{
+  font-family: Arial, Verdana, Geneva;
+	padding:0.15em 30px;
+  color:black;
+	margin:auto;
+  margin-top: 40px;
+	width: 800px;
+
+
+}
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt {
+  font-weight: bold;
+  color: #F00;
+}
+
+.hiddentxt a {
+  color: #F00;
+  text-decoration: none;
+}
+
+.hiddenclick {
+  font-weight: bold;
+  color: #F00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hiddenclick a {
+  color: #F00;
+  text-decoration: none;
+}
+
+.hiddenclick a:visited {
+  color: #F00;
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display:block;
+
+}
+
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.img_right{
+          float: right;
+          -webkit-animation: fadein 4s ease-in;; /* Safari, Chrome and Opera > 12.1 */
+             -moz-animation: fadein 4s ease-in;; /* Firefox < 16 */
+              -ms-animation: fadein 4s ease-in;; /* Internet Explorer */
+                  animation: fadein 4s ease-in;;
+}
+
+.cynical{
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+div:cynical {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.geert{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+  display: inline;
+
+}
+
+.geert:hover {
+    width: 300px;
+}
+
+
+.cynical:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   text-align: center;
+   font-family: Arial, Verdana, Geneva;
+}
+.footer p{
+  color: black;
+}

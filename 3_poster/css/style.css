@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+p{
+  font-family: Arial;
+  color: white;
+  font-weight: normal;
+
+}
+
+.row {
+border-bottom: 1px solid white;
+overflow: hidden;
+}
+
+.col {
+  float: left;
+
+}
+.col1of2{
+      width: 50%;
+
+}
+.col1of3{
+      width: 33.33%;
+
+}
+
+.col1of4{
+      width: 25%;
+}
+
+.col1of5{
+      width: 33.33%;
+}
+
+.bg_red{
+  background-color: red;
+
+}
+.bg_blue{
+  background-color: blue;
+}
+
+.bg_green{
+  background-color: green;
+}

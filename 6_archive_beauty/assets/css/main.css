@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: arial;
+}
+
+h1{
+
+    font-size: 80px;
+    color: #FADBD8;
+    text-align:center;
+}
+.b-skin {
+  color: #fff;
+}
+.b-makeup{
+  color: #fff;
+}
+.b-perfume {
+  color: #fff;
+}
+.b-pink{
+  color: #fff;
+}
+.b-advertisment {
+  color: #fff;
+}
+.b-hair{
+  color: #fff;
+}
+.b-face{
+  color: #fff;
+}
+.b-tools{
+  color: #fff;
+}
+/* HELPER CLASSES FOR JS TO HIDE AND SHOW */
+
+.item img {
+  max-width:100%;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+/* Nav Class Css */
+.nav ul {
+  list-style: none;
+
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  display: inline-block;
+  margin-right: -4px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav li {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s background-color;
+}
+
+.nav li:hover {
+  color: #444;
+  background-color: #FADBD8;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 190px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 4
+	0px;
+    font-size: 0.94em;
+  }
+
+
+  img{
+  	padding-top: 10px;
+  }
+
+.footer {
+    position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #444;
+     color: white;
+     text-align: center;
+     font-family: 'Oswald', sans-serif;
+  }

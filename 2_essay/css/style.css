@@ -1,8 +1,8 @@
 body {
-background-color: cyan;
+background-color: #F5B7B1;
 width: 800px;
 margin:auto;
-margin-left: 20px;
+
 font-family: arial;
 }
 
@@ -14,8 +14,9 @@ p {
 h1{
   text-align: center;
   border: 2px solid green;
-  background-color: yellow;
-  font-size: 60px;
+  background-color: #5DADE2;
+  font-size: 50px;
+  font-style: italic;
   margin: 40px;
   padding: 60px;
 }
