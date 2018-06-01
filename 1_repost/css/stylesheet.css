@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body{					/*Main text properties*/
+    background:#E6E6E6;
+	font-family: Tahoma, Geneva, sans-serif;
+						/* Inherited to all text in the body */
+	margin: 0; 			/* Remove default margin */
+}
+
+h1 {						/*Header*/
+	margin: 0;
+}
+
+h2 {						/*Heading 2*/
+
+	padding: 20px;
+	font-size: 34px;
+}
+
+h3 {						/*Heading 3*/
+	color: gray;
+	height: 1px;
+	padding-left: 25px;
+	font-size: 34px;
+	overflow: left;
+}
+
+section h3 {						/*Heading 3*/
+	color: gray;
+	height: 1px;
+	padding-left:0;
+	font-size: 34px;
+	overflow: left;
+}
+
+
+nav {					/*Navigation bar*/
+	width:1232px;
+	height: 35px;
+	padding: 9px;
+	float: left;
+	font-size: 25px;
+	border-bottom: 5px solid #848484;
+	border-top: 5px solid #848484;
+	margin-bottom: 30px;
+}
+
+a {						/*Text properties*/
+	text-decoration: none;
+	color: #848484;
+}
+
+a:hover{				/*Hover text feature for navigation bar*/
+	opacity: 0.6;
+}
+
+.divider{				/*Adds dividers in between each link on navigation bar*/
+	margin: 0 0.3em;
+}
+
+
+div#wrapper{				/*Center wrapper*/
+	margin: 0 auto;
+	width: 1250px;
+	background-color: #ffffff;
+	padding: 20px;
+	-webkit-box-shadow: 2px 2px 2px #999;
+	-moz-box-shadow:2px 2px 2px #999;
+	box-shadow:2px 2px 2px #999;
+	overflow: hidden;
+}
+
+p {						/*Main text properties*/
+	font-size: 24px;
+
+	margin: 0;
+	padding: 20px;
+	color: #2E2E2E;
+
+}
+footer {				  /*Properties for the footer*/
+	clear: both;
+	color: gray;
+	width: 1200px;
+
+
+padding-top: 30px;
+	text-align: center;
+	font-size: 20px;
+
+}
