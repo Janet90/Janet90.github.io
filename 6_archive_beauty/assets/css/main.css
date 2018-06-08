@@ -5,11 +5,10 @@ body {
   font-family: arial;
 }
 
-h1{
-
-    font-size: 80px;
-    color: #FADBD8;
-    text-align:center;
+.h1{
+font-size: 80px;
+    color: #f4c2ac;
+    text-align: center;
 }
 .b-skin {
   color: #fff;
