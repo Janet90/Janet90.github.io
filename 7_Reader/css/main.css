@@ -13,8 +13,41 @@ h2 {
 	font-family: Arial, Verdana, Geneva;
 	font-size: 2em;
 	text-align: left;
+  padding-left: 21.8%;
+  padding-top: 30px;
    }
 
+h3 {
+   	font-family: Arial, Verdana, Geneva;
+
+   	text-align: left;
+     padding-left: 21.8%;
+     padding-top: 30px;
+      }
+
+  .text {
+   font-size:20px;
+   font-family: arial;
+   -webkit-column-count:2;
+   margin-bottom: 30px;
+}
+.tc-3 {
+
+  padding: 30px;
+  font-size:20px;
+  font-family: arial;
+  -webkit-column-count:3;
+  margin-bottom: 30px;
+}
+
+.tc-4 {
+
+  padding: 30px;
+  font-size:20px;
+  font-family: arial;
+  -webkit-column-count:4;
+  margin-bottom: 30px;
+}
 p {
 	 font-family: Arial, Verdana, Geneva;
 	 font-size: 16px;
@@ -133,7 +166,13 @@ p {
               -ms-animation: fadein 4s ease-in;; /* Internet Explorer */
                   animation: fadein 4s ease-in;;
 }
+.wow_img{
+          float: right;
+          padding-right: 70px;
 
+          width: 20%;
+          height: 20%;
+}
 .cynical{
 
     width: 100px;
@@ -142,12 +181,6 @@ p {
     -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 4s;
 }
-
-div:cynical {
-    width: 300px;
-    height: 300px;
-}
-
 
 
 .geert{
@@ -160,22 +193,11 @@ div:cynical {
 
 }
 
-.geert:hover {
-    width: 300px;
-}
-
-
-.cynical:hover {
-    width: 300px;
-    height: 300px;
-    -webkit-transform: rotate(360deg); /* Safari */
-    transform: rotate(360deg);
-}
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
+   
+
+
    width: 100%;
    background-color: white;
    text-align: center;
